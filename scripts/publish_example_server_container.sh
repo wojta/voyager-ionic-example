@@ -8,7 +8,7 @@ docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWORD
 #use TAG env. variable to create the container with the given tag
 TAG="${TAG:-latest}"
 
-NAMESPACE="aerogear"
+NAMESPACE="vsazelci"
 CONTAINER="$NAMESPACE/voyager-server-example-task:$TAG"
 CONTAINER_LATEST="$NAMESPACE/voyager-server-example-task:latest"
 
